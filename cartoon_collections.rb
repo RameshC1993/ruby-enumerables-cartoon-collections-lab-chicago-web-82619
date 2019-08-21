@@ -5,6 +5,7 @@ def roll_call_dwarves(arrays)
     counter += 1
     new_array << array[i]
     puts "#{counter}.#{new_array}"
+  end
   
 end
 
