@@ -4,7 +4,7 @@ def roll_call_dwarves(arrays)
   arrays.map do |array|
     counter += 1
     new_array << array[i]
-    puts new_array
+    puts "#{counter}.#{new_array}"
   
 end
 
