@@ -1,11 +1,13 @@
 def roll_call_dwarves(arrays)
-  new_array = []
+  def roll_call_dwarves(array)
+  new_names = []
   counter = 0
-  arrays.map do |array|
-    counter += 1
-    new_array << array[i]
-    puts "#{counter}.#{new_array}"
+  array.each do |x|
+  new_names << x
+  puts "#{counter + 1}. #{x}"
+  counter += 1
   end
+end
   
 end
 
