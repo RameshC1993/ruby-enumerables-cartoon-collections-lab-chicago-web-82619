@@ -1,4 +1,10 @@
 def roll_call_dwarves(arrays)
+  new_array = []
+  counter = 0
+  arrays.map do |array|
+    counter += 1
+    new_array << array[i]
+    puts new_array
   
 end
 
