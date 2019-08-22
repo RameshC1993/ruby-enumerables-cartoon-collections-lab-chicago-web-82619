@@ -1,5 +1,5 @@
-def roll_call_dwarves(arrays)
-  def roll_call_dwarves(array)
+def roll_call_dwarves(array)
+  
   new_names = []
   counter = 0
   array.each do |x|
