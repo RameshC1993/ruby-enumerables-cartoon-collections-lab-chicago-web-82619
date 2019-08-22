@@ -28,6 +28,6 @@ def find_the_cheese(strings)
     elsif camembert_included == true
       return "camebert"
     else 
-      return "nil"
+      return nil
     end
 end
