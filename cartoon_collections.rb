@@ -10,3 +10,5 @@ def summon_captain_planet(array)
   array.collect{|x| x.capitalize + "!"}
 end
 
+def long_planeteer_calls(array)
+  
