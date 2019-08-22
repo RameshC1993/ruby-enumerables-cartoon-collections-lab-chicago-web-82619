@@ -1,8 +1,4 @@
-def roll_call_dwarves(array)
-  counter = 0
-  array.collect{|x| counter + 1 + "." + "x"}
-  counter += 1
-end
+
 
 
 def summon_captain_planet(array)# code an argument here
