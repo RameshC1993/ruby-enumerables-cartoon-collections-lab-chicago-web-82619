@@ -11,7 +11,7 @@ def long_planeteer_calls# code an argument here
   # Your code here
 end
 
-def find_the_cheese(# code an argument here
+def find_the_cheese(strings)# code an argument here
   cheddar_included = strings.include? ("cheddar")
   gouda_included = strings.include? ("gouda")
   camembert_included = strings.include? ("camebert")
