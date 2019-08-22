@@ -11,8 +11,10 @@ end
   
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)# code an argument here
+  def summon_caption_planet(array)
+ array.collect{|x| x.capitalize + "!"}
+end# Your code here
 end
 
 def long_planeteer_calls# code an argument here
